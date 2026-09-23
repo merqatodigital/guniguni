@@ -1,0 +1,177 @@
+{
+  "currency": "PHP",
+  "serviceChargeRate": 0.05,
+  "serviceChargeNote": "A 5% service charge will be added to your total bill.",
+  "sections": [
+    {
+      "id": "pasta-tagliatelle",
+      "page": "pasta",
+      "group": "Homemade Pasta",
+      "number": "01",
+      "title": "Tagliatelle",
+      "items": [
+        { "id": "basil-cashew-pesto", "name": "Basil Cashew Pesto", "price": 320, "description": "Homemade pesto sauce and sundried tomato." },
+        { "id": "spicy-marinara", "name": "Spicy Marinara", "price": 320, "vegetarian": true, "description": "Tomato sauce, capers, black olives and onion." },
+        { "id": "carbonara", "name": "Carbonara", "price": 320, "description": "Bacon, parmesan cheese and egg yolk." },
+        { "id": "seafood", "name": "Seafood", "price": 360, "description": "Shrimps, squid, clams, white wine, basil and chili flakes." },
+        { "id": "meatball-marinara", "name": "Meatball Marinara", "price": 360, "description": "Three beef meatballs, tomato sauce and parmesan cheese." },
+        { "id": "truffle-cream", "name": "Truffle Cream", "price": 390, "vegetarian": true, "description": "Mushrooms, truffle cream and white onions." }
+      ]
+    },
+    {
+      "id": "pasta-ravioli",
+      "page": "pasta",
+      "group": "Homemade Pasta",
+      "number": "02",
+      "title": "Ravioli",
+      "items": [
+        { "id": "spinach-in-tomato-cream", "name": "Spinach in Tomato Cream", "price": 295, "description": "Local spinach & cream cheese filling with creamy tomato sauce." },
+        { "id": "smoked-salmon-in-lemon-butter", "name": "Smoked Salmon in Lemon Butter", "price": 360, "description": "Smoked salmon, cream cheese filling with lemon butter sauce." }
+      ]
+    },
+    {
+      "id": "pizza",
+      "page": "pizza",
+      "group": "Pizza",
+      "title": "Pizza",
+      "subtitle": "12-inch hand-tossed",
+      "note": "Pizza add-ons: ask your server for prices.",
+      "items": [
+        { "id": "margherita", "name": "Margherita", "price": 380, "vegetarian": true },
+        { "id": "cream-spinach-cheese", "name": "Cream Spinach & Cheese", "price": 475, "vegetarian": true },
+        { "id": "fresh-seafood", "name": "Fresh Seafood", "price": 550 },
+        { "id": "pepperoni-supreme", "name": "Pepperoni Supreme", "price": 500 },
+        { "id": "bacon-overload", "name": "Bacon Overload", "price": 520 },
+        { "id": "meat-lovers", "name": "Meat Lovers", "price": 540 },
+        { "id": "truffle-3-cheese", "name": "Truffle & 3 Cheese", "price": 550, "vegetarian": true },
+        { "id": "four-cheese-garlic", "name": "Four Cheese & Garlic", "price": 480, "vegetarian": true },
+        { "id": "hawaiian", "name": "Hawaiian", "price": 440 }
+      ]
+    },
+    {
+      "id": "burgers",
+      "page": "pizza",
+      "group": "Burgers",
+      "title": "Burgers",
+      "subtitle": "With fries",
+      "items": [
+        { "id": "spicy-chicken-burger", "name": "Spicy Chicken Burger", "price": 380 },
+        { "id": "bacon-cheese", "name": "Bacon & Cheese", "price": 440 },
+        { "id": "philly-cheese-steak", "name": "Philly Cheese Steak", "price": 440 },
+        { "id": "smokey-burger", "name": "Smokey Burger", "price": 440 },
+        { "id": "falafel-burger", "name": "Falafel Burger", "price": 340 }
+      ]
+    },
+    {
+      "id": "sides",
+      "page": "pizza",
+      "group": "Sides",
+      "title": "Sides",
+      "items": [
+        { "id": "steamed-rice", "name": "Steamed Rice", "price": 50 },
+        { "id": "garlic-rice", "name": "Garlic Rice", "price": 60 },
+        { "id": "burrito-rice", "name": "Burrito Rice", "price": 70 },
+        { "id": "mashed-potato", "name": "Mashed Potato", "price": 130 },
+        { "id": "steamed-rice-platter", "name": "Steamed Rice Platter", "price": 150 },
+        { "id": "garlic-rice-platter", "name": "Garlic Rice Platter", "price": 190 },
+        { "id": "burrito-rice-platter", "name": "Burrito Rice Platter", "price": 240 },
+        { "id": "french-fries", "name": "French Fries", "price": 200 }
+      ]
+    },
+    {
+      "id": "starters",
+      "page": "pizza",
+      "group": "Starters",
+      "title": "Start Fresh",
+      "items": [
+        { "id": "mediterranean-salad", "name": "Mediterranean Salad", "price": 340 },
+        { "id": "beef-carpaccio", "name": "Beef Carpaccio", "price": 420 }
+      ]
+    },
+    {
+      "id": "cocktails",
+      "page": "drinks",
+      "group": "Drinks",
+      "title": "Cocktails",
+      "items": [
+        { "id": "frozen-margarita", "name": "Frozen Margarita", "price": 180 },
+        { "id": "mango-margarita", "name": "Mango Margarita", "price": 250 },
+        { "id": "sex-on-the-beach", "name": "Sex on the Beach", "price": 300 },
+        { "id": "mojito", "name": "Mojito", "price": 180 },
+        { "id": "pina-colada", "name": "Piña Colada", "price": 220 },
+        { "id": "martini", "name": "Martini", "price": 220 },
+        { "id": "long-island-iced-tea", "name": "Long Island Iced Tea", "price": 250 }
+      ]
+    },
+    {
+      "id": "beers",
+      "page": "drinks",
+      "group": "Drinks",
+      "title": "Beers",
+      "items": [
+        { "id": "red-horse", "name": "Red Horse", "price": 100 },
+        { "id": "san-miguel-light", "name": "San Miguel Light", "price": 100 },
+        { "id": "san-miguel-pilsen", "name": "San Miguel Pilsen", "price": 100 },
+        { "id": "san-miguel-apple", "name": "San Miguel Apple", "price": 100 },
+        { "id": "heineken", "name": "Heineken", "price": 220 },
+        { "id": "corona", "name": "Corona", "price": 220 }
+      ]
+    },
+    {
+      "id": "mixed-drinks",
+      "page": "drinks",
+      "group": "Drinks",
+      "title": "Mixed Drinks",
+      "items": [
+        { "id": "smirnoff-mule", "name": "Smirnoff Mule", "price": 150 },
+        { "id": "rum-coke", "name": "Rum & Coke", "price": 100 },
+        { "id": "rum-sprite", "name": "Rum & Sprite", "price": 100 },
+        { "id": "gin-tonic", "name": "Gin Tonic", "price": 150 },
+        { "id": "vodka-tonic", "name": "Vodka Tonic", "price": 150 },
+        { "id": "whiskey-coke", "name": "Whiskey Coke", "price": 150 }
+      ]
+    },
+    {
+      "id": "wine",
+      "page": "drinks",
+      "group": "Drinks",
+      "title": "Wine",
+      "variants": ["glass", "bottle"],
+      "items": [
+        { "id": "red-wine", "name": "Red Wine", "prices": { "glass": 250, "bottle": 850 } },
+        { "id": "white-wine", "name": "White Wine", "prices": { "glass": 250, "bottle": 850 } },
+        { "id": "rose", "name": "Rosé", "prices": { "glass": 250, "bottle": 850 } }
+      ]
+    },
+    {
+      "id": "spirits",
+      "page": "drinks",
+      "group": "Drinks",
+      "title": "Spirits",
+      "variants": ["glass", "bottle"],
+      "items": [
+        { "id": "tanduay-dark", "name": "Tanduay Dark", "prices": { "glass": 80, "bottle": 450 } },
+        { "id": "toska", "name": "Toska", "prices": { "glass": 80, "bottle": 700 } },
+        { "id": "pastis", "name": "Pastis", "prices": { "glass": 80, "bottle": 950 } },
+        { "id": "jb", "name": "J&B", "prices": { "glass": 100, "bottle": 1000 } },
+        { "id": "tanduay-superior", "name": "Tanduay Superior", "prices": { "glass": 120, "bottle": 1000 } },
+        { "id": "bacardi-white", "name": "Bacardi White", "prices": { "glass": 150, "bottle": 1700 } },
+        { "id": "jagermeister", "name": "Jägermeister", "prices": { "glass": 150, "bottle": 2100 } },
+        { "id": "embassy", "name": "Embassy", "prices": { "glass": 160, "bottle": 2000 } },
+        { "id": "jose-cuervo", "name": "Jose Cuervo", "prices": { "glass": 160, "bottle": 2000 } },
+        { "id": "bombay-sapphire", "name": "Bombay Sapphire", "prices": { "glass": 160, "bottle": 2300 } },
+        { "id": "black-label", "name": "Black Label", "prices": { "glass": 180, "bottle": 3200 } },
+        { "id": "fireball-cinnamon", "name": "Fireball Cinnamon", "prices": { "glass": 180, "bottle": 1800 } },
+        { "id": "tanqueray", "name": "Tanqueray", "prices": { "glass": 180, "bottle": 3200 } },
+        { "id": "vaccari-sambuca", "name": "Vaccari Sambuca", "prices": { "glass": 180, "bottle": 1900 } },
+        { "id": "tequila-rose", "name": "Tequila Rose", "prices": { "glass": 210, "bottle": 2000 } },
+        { "id": "jack-daniels", "name": "Jack Daniels", "prices": { "glass": 240, "bottle": 3200 } },
+        { "id": "don-papa", "name": "Don Papa", "prices": { "glass": 250, "bottle": 2900 } },
+        { "id": "chivas-regal-12", "name": "Chivas Regal 12 yrs", "prices": { "glass": 250, "bottle": 3000 } },
+        { "id": "hennessy", "name": "Hennessy", "prices": { "glass": 350, "bottle": 5250 } },
+        { "id": "singleton-12", "name": "Singleton 12 yrs", "prices": { "glass": 350, "bottle": 3600 } },
+        { "id": "chivas-regal-18", "name": "Chivas Regal 18 yrs", "prices": { "glass": 400, "bottle": 6000 } }
+      ]
+    }
+  ]
+}
